@@ -1,0 +1,10 @@
+make_response
+to return custom response
+jsonfy 
+to return data in json format
+to connect with mysql database we need to install mysqlclient
+for any change in model file we have to run
+flask db init
+flask db migrate -m "Initial migration."
+flask db upgrade
+flask db downgrade
